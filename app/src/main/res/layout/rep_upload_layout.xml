@@ -1,0 +1,76 @@
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_activty"
+    tools:context="com.example.donavan.visaulfusion.RepUploadActivity"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud_gradient"
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <TextView
+            android:text="Upload Images"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="Upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridViewCustom2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="1"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="60dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:onClick="Next"
+            android:text="Continue"
+            android:drawableRight="@drawable/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="350dp"
+            android:maxWidth="100dp"
+            android:minHeight="60dp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#fdc313"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textAlignment="gravity"
+            />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.donavan.visaulfusion">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivty"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RepHomeActivity"
+            android:label="Home" />
+        <activity
+            android:name=".RepStoreDetailsActivity"
+            android:label="Store Details" />
+        <activity
+            android:name=".RepItemsActivity"
+            android:label="Select Item Quantities" />
+        <activity
+            android:name=".RepExtraDetailsActivity"
+            android:label="Extra Details" />
+        <activity
+            android:name=".RepUploadActivity"
+            android:label="Upload Images" />
+        <activity
+            android:name=".RepProgressActivity"
+            android:label="View Store Progress" />
+        <activity
+            android:name=".RepInfoActivity"
+            android:label="Store Info" />
+        <activity
+            android:name=".RepAgreementActivy"
+            android:label="Store Agreement" />
+        <activity
+            android:name=".RepValidatedActivity"
+            android:label="Validate Store" />
+        <activity
+            android:name=".DownloadActivity"
+            android:label="Download Files" />
+        <activity
+            android:name=".TssHome"
+            android:label="Tss Home" />
+        <activity
+            android:name=".TssOpenRequests"
+            android:label="Tss Open Requests" />
+        <activity
+            android:name=".TssAcceptRequest"
+            android:label="Accept Request" />
+        <activity
+            android:name=".TssApoitmentsActivity"
+            android:label="View Appointments" />
+        <activity
+            android:name=".TssSetAppointmentActivity"
+            android:label="Set Appointment" />
+        <activity
+            android:name=".TssSelectStoreActivity"
+            android:label="Select Store" />
+        <activity
+            android:name=".TssUnitaryList"
+            android:label="Unitary List" />
+        <activity
+            android:name=".TssUploadActivity"
+            android:label="Tss Uploads" />
+        <activity
+            android:name=".TssValidateStore"
+            android:label="Tss Validate Install" />
+        <activity
+            android:name=".WareHouseHomeActivity"
+            android:label="Ware House Home" />
+        <activity
+            android:name=".WarhousePickRequests"
+            android:label="Open Pick Requests" />
+        <activity
+            android:name=".WareHouseAcceptRequest"
+            android:label="Accept Pick Request" />
+        <activity
+            android:name=".WarehouseViewAccepted"
+            android:label="View Pick Lists" />
+        <activity
+            android:name=".WarehousePicklist"
+            android:label="Pick List" />
+        <activity
+            android:name=".WarehouseSelectDocuments"
+            android:label="Select Store To Upload" />
+        <activity
+            android:name=".WarehouseUploadDocs"
+            android:label="Upload Documentation" />
+        <activity
+            android:name=".WareHouseUnitary"
+            android:label="Ware House Unitary" />
+        <activity
+            android:name=".InstilationHome"
+            android:label="Installation Team Home" />
+        <activity
+            android:name=".InstallRequest"
+            android:label="Installation Requests" />
+        <activity
+            android:name=".InstallAcceptRequest"
+            android:label="Accept Install Request" />
+        <activity
+            android:name=".InstallApointments"
+            android:label="Installation Appointments" />
+        <activity
+            android:name=".InstallSetAppointment"
+            android:label="Set Installation Appointments" />
+        <activity
+            android:name=".InstalSelectStoreUpload"
+            android:label="Select Store" />
+        <activity
+            android:name=".InstallUnitaryList"
+            android:label="Install Unitary List" />
+        <activity
+            android:name=".InstallUploadActivity"
+            android:label="Installation Uploads " />
+        <activity
+            android:name=".InstallationValidateStore"
+            android:label="Validate Installation" />
+        <activity
+            android:name=".ManagementHome"
+            android:label="Managment Home" />
+        <activity
+            android:name=".ManagmentSelectBrand"
+            android:label="Brand Report" />
+        <activity
+            android:name=".ManagmentSelectReport"
+            android:label="Select Progress Report" />
+        <activity
+            android:name=".ManagmentReportViews"
+            android:label="Progress Report" />
+        <activity
+            android:name=".ManagmentStoreDetails"
+            android:label="Store Details" />
+        <activity
+            android:name=".ManagmentSelectOverall"
+            android:label="Select Report" />
+        <activity
+            android:name=".ManagmentViewOverallReport"
+            android:label="Overal Report" />
+        <activity
+            android:name=".ManagmentSearch"
+            android:label="Search Stores" />
+        <activity
+            android:name=".ManagmentTeamManagment"
+            android:label="Team Managment" />
+        <activity
+            android:name=".ManagmentTssTeam"
+            android:label="View Team" />
+        <activity
+            android:name=".ManagmentViewTeam"
+            android:label="View Team Info" />
+        <activity
+            android:name=".Search"
+            android:label="Search">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EablManagementHome"
+            android:label="EABLE Home" />
+        <activity
+            android:name=".EablSelectBrand"
+            android:label="Brand Report" />
+        <activity
+            android:name=".EablSelectReport"
+            android:label="Select Progress Report" />
+        <activity
+            android:name=".EablReportViews"
+            android:label="Progress Report" />
+        <activity
+            android:name=".EablStoreDetails"
+            android:label="Store Details" />
+        <activity
+            android:name=".EablSelectOverall"
+            android:label="Select Report" />
+        <activity
+            android:name=".EablViewOverallReport"
+            android:label="Overal Report" />
+        <activity
+            android:name=".EablSearch"
+            android:label="Search Stores" />
+        <activity android:name=".TssAbortTrip" />
+        <activity android:name=".TssAbortConfirm"></activity>
+
+        <activity android:name=".InstallAbortTrip" />
+        <activity android:name=".InstallAbortConfirm"></activity>
+    </application>
+
+</manifest>

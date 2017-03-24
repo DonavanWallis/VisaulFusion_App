@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">VisaulFusion</string>
+    <string name="Home">Home</string>
+    <string name="Logout">logout</string>
+
+
+    <string name="country_prompt">Choose a country</string>
+    <string name="Downloads">Downloads</string>
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string name="title_activity_test">test</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_install_upload">InstallUploadActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="search_title">Search Title</string>
+    <string name="search">Search</string>
+    <string name="ViewStore">View Stores</string>
+    <string name="Addstores">Add Stores</string>
+    <string name="openrequests">Open Requests</string>
+    <string name="unitary">Unitary</string>
+    <string name="appointsments">Appointments</string>
+    <string name="abortmenu">Abort</string>
+    <string name="openpicks">Open Pick Requests</string>
+    <string name="viewrequests">View Picks</string>
+    <string name="uploaddocstss">Upload Documents</string>
+    <string name="brandreportman">Brand Report</string>
+    <string name="overallreportman">Overall Report</string>
+    <string name="teammangment">Team Managment</string>
+    <string name="searchmagemenu">Search</string>
+    <string name="searchmag">Search Screen</string>
+    <string name="eablebrand">Brand Report</string>
+    <string name="eableoverall">Overall Report</string>
+    <string name="eablestore">Search Screen</string>
+
+</resources>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/install_set_appointment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.donavan.visaulfusion.InstallSetAppointment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+
+                    android:hint="Southdale Liquers "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/one"
+                    android:backgroundTint="#efefef"
+                    android:textColor="#484848"
+                    android:textColorHint="#8f8f8f"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:hint="URN: 01928390"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/two"
+                    android:backgroundTint="#efefef"
+                    android:textColor="#484848"
+                    android:textColorHint="#8f8f8f"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:hint="Contact: Jeremy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/five"
+                    android:backgroundTint="#efefef"
+                    android:textColor="#484848"
+                    android:textColorHint="#8f8f8f"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:hint="Jeremey@ls.com"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/six"
+                    android:backgroundTint="#efefef"
+                    android:textColor="#484848"
+                    android:textColorHint="#8f8f8f"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:hint="Number: 082 029 2920"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/seven"
+                    android:backgroundTint="#efefef"
+                    android:textColor="#484848"
+                    android:textColorHint="#8f8f8f"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:hint="Opens: 7:15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eight"
+                    android:backgroundTint="#efefef"
+                    android:textColor="#484848"
+                    android:textColorHint="#8f8f8f"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:hint="Closes: 19:15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nine"
+                    android:backgroundTint="#efefef"
+                    android:textColor="#484848"
+                    android:textColorHint="#8f8f8f"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:hint="Total Units: 20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ten"
+                    android:backgroundTint="#efefef"
+                    android:textColor="#484848"
+                    android:textColorHint="#8f8f8f"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:hint="Time Frame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eleven"
+                    android:backgroundTint="#efefef"
+                    android:textColor="#484848"
+                    android:textColorHint="#8f8f8f"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <Button
+                android:id="@+id/btnChangeTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set  Time"
+                android:background="#fcd207"
+                android:backgroundTint="#fcd207"
+                android:padding="5dp"
+
+                android:textColor="#ffffff"/>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/lblTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Appointment time: (H:M): "
+                    android:textSize="16dp"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="left"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:id="@+id/tvTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16dp"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="left"
+                    android:gravity="left"/>
+
+            </LinearLayout>
+
+            <TimePicker
+                android:visibility="gone"
+                android:id="@+id/timePicker1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fcd207"
+                android:backgroundTint="#fcd207"
+
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            >
+
+
+            <Button android:id="@+id/pickDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set Date" android:background="#fcd207"
+                android:backgroundTint="#fcd207"
+                android:padding="5dp"
+                android:textColor="#ffffff"
+                />
+
+            <TextView
+                android:id="@+id/displayDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Date"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_weight="80">
+
+
+        <Button
+            android:text="Confirm Appointment"
+            android:id="@+id/viewstore"
+            android:onClick="ConfirmAppointment"
+            android:drawableRight="@drawable/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="350dp"
+            android:maxWidth="100dp"
+            android:minHeight="60dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#fdc313"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="left|center_vertical"
+            android:textAlignment="gravity"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homebutton"
+        android:title="@string/Home"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/homebtn"
+        />
+
+    <item android:id="@+id/searchbuttonnew"
+        android:title="@string/search"
+        android:orderInCategory="2"
+        android:icon="@drawable/searchsml"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/openpickmenu"
+        android:title="@string/openpicks"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+
+        />
+
+    <item android:id="@+id/viewrequestsmenu"
+        android:title="@string/viewrequests"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+
+        />
+
+    <item android:id="@+id/Uploaddocsmenu"
+        android:title="@string/uploaddocstss"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+
+        />
+
+
+
+
+
+    <item
+        android:id="@+id/logoutbutton"
+        android:title="@string/Logout"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/downloadBtn"
+        android:title="@string/Downloads"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        />
+
+
+
+
+</menu>
